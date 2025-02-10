@@ -1,4 +1,5 @@
-# Notes on C++ templates
+# Table of Contents
+[Introduction](src/introduction.md)
 
 - T is called a type template parameter
 - There can be four types of templates: 
