@@ -8,6 +8,7 @@
 7. [Template Member Function Examples](src/member_function.md)
 8. [Template Lambda Example](src/template_lambda.md)
 9. [Variadic Template](src/variadic_template.md)
+10. [Fold Expressions](src/fold_expression.md)
 
 - Name binding for non-dependant names happens at template definition and for dependent names at template instantiation
 - Two phase name lookup: First phase template syntax and non-dependant names. Second phase dependant names binding 
