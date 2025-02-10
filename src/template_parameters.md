@@ -1,5 +1,6 @@
 # Types of template parameters
-There are three types of template parameters
+- For all template parameter types, you can specify default
+- There are three types of template parameters
 ### 1. Template Type Parameter
 ```cpp
 // You could use class instead of typename
@@ -18,6 +19,9 @@ int main()
 ### 2. Template Non-type Parameter
 - This is very important for std::array because we cannot take in the size from the constructor
 - C++17 allows auto
+- The following types are allowed
+- -
+
 ```cpp
 /*
   auto can take any kind of value
