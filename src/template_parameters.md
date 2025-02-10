@@ -26,6 +26,7 @@ int main()
   4. pointer to objects/functions/member objects/member functions
   5. l-value reference to objects/functions
   6. class types
+ - We could pass std::string using class types
 
 ```cpp
 /*
