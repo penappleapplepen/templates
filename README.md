@@ -1,13 +1,13 @@
 # Table of Contents
-[Introduction](src/introduction.md)
-[Template Updates](src/template_updates.md)
-[Template Types](src/template_types.md)
-[Template Parameters](src/template_parameters.md)
-[Template Specialization](src/specialization.md)
-[Template Instantiation](src/instantiation.md)
-[Template Member Function Examples](src/member_function.md)
-[Template Lambda Example](src/template_lambda.md)
-[Variadic Template](src/variadic_template.md)
+1. [Introduction](src/introduction.md)
+2. [Template Updates](src/template_updates.md)
+3. [Template Types](src/template_types.md)
+4. [Template Parameters](src/template_parameters.md)
+5. [Template Specialization](src/specialization.md)
+6. [Template Instantiation](src/instantiation.md)
+7. [Template Member Function Examples](src/member_function.md)
+8. [Template Lambda Example](src/template_lambda.md)
+9. [Variadic Template](src/variadic_template.md)
 
 - Name binding for non-dependant names happens at template definition and for dependent names at template instantiation
 - Two phase name lookup: First phase template syntax and non-dependant names. Second phase dependant names binding 
