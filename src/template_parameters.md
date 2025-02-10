@@ -19,8 +19,13 @@ int main()
 ### 2. Template Non-type Parameter
 - This is very important for std::array because we cannot take in the size from the constructor
 - C++17 allows auto
-- The following types are allowed
-- -
+- The following types are allowed along with cv-qualified forms
+  1. integral types
+  2. floating-point types, as of c++20
+  3. enumerations
+  4. pointer to objects/functions/member objects/member functions
+  5. l-value reference to objects/functions
+  6. class types
 
 ```cpp
 /*
