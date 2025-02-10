@@ -57,3 +57,17 @@ auto getTypeSizes()
     return std::array<size_t, sizeof...(Ts)>{sizeof(Ts)...};
 }
 ```
+- Variadic alias templates and variadic variable templates also exist
+### 4. Variadic alias templates
+```cpp
+template<int... R>
+constexpr int Sum = (... + R);
+```
+### 5. Variadic variable templates
+```cpp
+template<typename... Args>
+struct foo{};
+
+template<typename... Args>
+using int_foo = foo<int, Args...>;
+```
