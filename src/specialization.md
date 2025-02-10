@@ -2,6 +2,10 @@
 - Specialization refers to providing alternative definitions of the template for certain arguments
 - There are two types of Specialization
 - The definition created from template instantiation is called a specialization too. We can also have custom defined ones
+## Specialization Tricks
+- Alias templates cannot be partially or fully specialized, so you might have to add a type inside a class
+- Function templates only support full specialization, class templates support full and partial specialization
+- When partial specialization of function is required, we use the trick of class partial specialization by having a static function inside a struct and having partial specialization there
 ## Partial Specialization
 - This is an alternative implementation provided for only some of the template parameters
 ```cpp

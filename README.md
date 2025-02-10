@@ -1,7 +1,6 @@
 # Table of Contents
 [Introduction](src/introduction.md)
 
-- For value, you can use variable template and for types, you can use alias templates. Alias templates cannot be partially or fully specialized, so you might have to add a type inside a class. Function templates only support full specialization, class templates support full and partial specialization
 - Variadic templates
     - To specify a pack of parameters in the template parameters list, as in typename... Args. This is called a template parameter pack. Template parameter packs can be defined for type templates, non-type templates, and template template parameters.
     - To specify a pack of parameters in the function parameters list, as in Args... args. This is called a function parameter pack.
@@ -9,7 +8,6 @@
 - Use __PRETTY_FUNCTION__ to see the generated function
 - Standard doesn't limit parameter pack max, but compilers might. Standard recommends minimum instead. Use sizeof to get size of parameter packs
 - sizeof...(args) or sizeof...(Args) gives size of parameter pack, but sizeof(args)... gives sizeof(args) multiple times
-- When partial specialization of function is required, we use the trick of class partial specialization by having a static function inside a struct and having partial specialization there
 - Name binding for non-dependant names happens at template definition and for dependent names at template instantiation
 - Two phase name lookup: First phase template syntax and non-dependant names. Second phase dependant names binding 
 - No name lookup happens in base class for non-dependant names. You can make it dependant name by calling "this->" or "base_parser<T>::"
